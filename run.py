@@ -14,7 +14,6 @@ app = Dash(
     __name__,
     external_stylesheets=[dbc.themes.SANDSTONE]
     )
-print(dir(app.server))
 server = app.server
 app.layout = dbc.Container([
     dbc.Row(id='info', className='my-3', style={'text-align': 'center'}), 
@@ -80,4 +79,4 @@ def update_output(start_date, end_date):
         ),
     ]
 
-app.run_server(debug=False, port="8050")
+app.run_server(debug=False, port="21343")
