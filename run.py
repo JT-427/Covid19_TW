@@ -79,4 +79,4 @@ def update_output(start_date, end_date):
         ),
     ]
 
-app.run_server(debug=False, port="21343")
+app.run_server(debug=False)
