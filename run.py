@@ -15,7 +15,7 @@ app = Dash(
     __name__,
     external_stylesheets=[dbc.themes.SANDSTONE]
     )
-
+server = app.server
 app.layout = dbc.Container([
     dbc.Row(id='info', className='my-3', style={'text-align': 'center'}), 
     dbc.Card([
