@@ -1,4 +1,3 @@
-from turtle import backward
 from dash import Dash, dcc, html
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
@@ -15,7 +14,7 @@ app = Dash(
     __name__,
     external_stylesheets=[dbc.themes.SANDSTONE]
     )
-
+server = app.server
 app.layout = dbc.Container([
     dbc.Row(id='info', className='my-3', style={'text-align': 'center'}), 
     dbc.Card([

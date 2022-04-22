@@ -5,6 +5,8 @@
 - python >= 3.8
 - [requirements.txt](https://github.com/JT-427/Covid19_TW/blob/master/requirements.txt)
 
+## 畫面
+![img](https://github.com/JT-427/Covid19_TW/blob/master/img/screenshot.png)
 ***
 ### 專案開發期間
 2022/04/21
